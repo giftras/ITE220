@@ -45,11 +45,11 @@ totalPriceElement.textContent = totalPrice - totaPrinceDiscount;
 var timeElement = document.getElementById("timeline");
 var dt = new Date().getHours();
 if (dt >= 0 && dt <= 11){
- timeElement.textContent = "Good Morning!, ";
+ timeElement.textContent = "Good Morning, ";
 }else if (dt >= 12 && dt <= 17){
- timeElement.textContent = "Good Afternoon!, ";
+ timeElement.textContent = "Good Afternoon, ";
 }else {
- timeElement.textContent = "Good Evening!, ";
+ timeElement.textContent = "Good Evening, ";
 }
 
 
