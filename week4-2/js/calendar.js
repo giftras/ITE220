@@ -16,8 +16,8 @@ var calendar = {
 			}	
 
 		}
-		calendarText += "<td></td><td></td><td></td><td></td>"
-
+		
+		calendarText += "<td></td><td></td><td></td></tr>";
 		calendarText += "</table>";
 		ele.innerHTML = calendarText;
 	}
